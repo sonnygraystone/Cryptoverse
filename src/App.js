@@ -7,15 +7,15 @@ import Exchanges from "./components/Exchanges";
 import Homepage from "./components/Homepage";
 import Cryptocurrencies from "./components/Cryptocurrencies";
 import CryptoDetails from "./components/CryptoDetails";
-import NavBar from "./components/NavBar";
+import Navbar from "./components/Navbar";
 import News from "./components/News";
 
 import "./App.css";
 
 const App = () => (
   <div className="app">
-    <div className="NavBar">
-      <NavBar />
+    <div className="navbar">
+      <Navbar />
     </div>
     <div className="main">
       <Layout>
