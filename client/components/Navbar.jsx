@@ -9,13 +9,13 @@ import {
   MenuOutlined,
 } from "@ant-design/icons";
 
-import icon from "../images/cryptocurrency.png";
+import icon from "../../server/public/photos/cryptocurrency.png";
 
 const NavBar = () => {
   return (
     <div className="nav-container">
       <div className="logo-container">
-        <Avatar src={icon} size="large" />
+        {<Avatar src={icon} size="large" />}
         <Typography.Title level={2} className="Logo">
           <Link to="/">Cryptoverse</Link>
         </Typography.Title>
